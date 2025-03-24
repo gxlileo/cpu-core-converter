@@ -66,6 +66,20 @@ This keeps the repo focused on source code only.
 
 ---
 
+## Project Roadmap
+
+- [x] Binary → Decimal conversion
+- [x] Decimal → Binary conversion
+- [ ] Interactive keyboard input
+- [ ] Hexadecimal conversion support
+- [ ] Mini command shell with base selector
+- [ ] Arithmetic operation support (+, -, *)
+- [ ] Input validation and error handling
+- [ ] C interface (inline or function call)
+- [ ] Run on QEMU or real board
+
+---
+
 Folder Structure
 
 ```bash
