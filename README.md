@@ -24,6 +24,16 @@ Built from scratch in **pure ARMv7 assembly**
 Fully annotated for learning and educational use  
 Compatible with **CPUlator** (DE1-SoC ARMv7 CPU simulator)
 
+Why This Project Matters?
+
+Understanding how to convert between number systems at the assembly level teaches:
+
+- How machines represent data
+- How higher-level functions like `atoi()` work internally
+- How to format strings without relying on printf
+- How to interact directly with hardware (UART)
+
+This project bridges the gap between software and hardware thinking.
 ---
 
 Folder Structure
@@ -35,3 +45,4 @@ Folder Structure
 ├── LICENSE              # MIT License
 ├── .gitignore           # Standard ignore file
 └── screenshots/         # (Optional) screenshots of output and code
+
