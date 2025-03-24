@@ -34,6 +34,19 @@ Understanding how to convert between number systems at the assembly level teache
 - How to interact directly with hardware (UART)
 
 This project bridges the gap between software and hardware thinking.
+
+What’s in .gitignore
+
+This project includes a `.gitignore` file to keep the repo clean. It ignores:
+
+- `.o`, `.elf`, `.bin` – compiled binaries and object files
+- `.map`, `.lst` – linker and assembly listing files
+- `.swp`, `*~` – editor temp files
+- `/build/` – optional folder for outputs
+- `.DS_Store` – macOS system files
+
+This keeps the repo focused on source code only.
+
 ---
 
 Folder Structure
