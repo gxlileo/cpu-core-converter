@@ -1,0 +1,24 @@
+# Object and binary output files
+
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+
+# Build folders
+/build/
+
+# Editor swap and temp files
+*~
+*.swp
+*.swo
+*.tmp
+
+# macOS system files
+.DS_Store
+
+# Logs or debug dumps (optional)
+*.log
+*.dump
