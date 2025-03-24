@@ -14,7 +14,22 @@ Designed for deep learning and demonstration of low-level system fundamentals.
 
 ---
 
-Features
+# Binary–Decimal Converter (ARM Assembly)
+
+A bare-metal ARMv7 Assembly program that:
+- Converts a binary string into its decimal equivalent
+- Prints the decimal value using memory-mapped I/O
+- Converts it back to binary and prints that too
+
+Input (hardcoded): `1101`  
+Output: 
+
+Decimal: 13
+Binary : 1101
+
+---
+
+**Features**
 
 Binary-to-decimal conversion using bitwise shifts  
 Decimal-to-binary conversion using masking and reverse string construction  
@@ -24,7 +39,9 @@ Built from scratch in **pure ARMv7 assembly**
 Fully annotated for learning and educational use  
 Compatible with **CPUlator** (DE1-SoC ARMv7 CPU simulator)
 
-Why This Project Matters?
+---
+
+**Why This Project Matters?**
 
 Understanding how to convert between number systems at the assembly level teaches:
 
